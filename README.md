@@ -9,6 +9,8 @@ Add the header and source files to your project.
 
 
 ```cpp
+#include "TSThread.h"
+
 TSConditionVariable printedStuff;
 
 class BufferingThread : public TSThread
