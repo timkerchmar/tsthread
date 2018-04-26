@@ -1,6 +1,8 @@
 #ifndef TSTHREAD_H
 #define TSTHREAD_H
 
+#include <string>
+
 #include <sys/types.h>
 
 #ifdef WIN32
