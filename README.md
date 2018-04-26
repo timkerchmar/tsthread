@@ -1,7 +1,12 @@
 # TSThread
 Simple thread wrapper. Tested on Windows, Android, OSX, iOS.
- 
+
+## Setup
+
+Add the header and source files to your project.
+
 ## Sample Usage
+
 
 ```cpp
 TSConditionVariable printedStuff;
