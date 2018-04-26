@@ -2,7 +2,6 @@
 #define TSTHREAD_H
 
 #include <sys/types.h>
-#include "TSType.h"
 
 #ifdef WIN32
 #include <Windows.h>
