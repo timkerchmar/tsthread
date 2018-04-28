@@ -16,7 +16,11 @@ TSConditionVariable printedStuff;
 class BufferingThread : public TSThread
 {
 public:
-    std::string name();
+    std::string name()
+    {
+        return "background thread";
+    }
+    
     void run()
     {
         printf ("hello from a background thread\n");
